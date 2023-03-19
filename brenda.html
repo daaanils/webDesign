@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
+     <!-- fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,500&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+ 
+ 
+ <!-- link for icons -->
+ <link rel="stylesheet" href="fontawesome-free-6.3.0-web/css/all.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+ <!-- Bootstrap -->
+<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<link rel="stylesheet" href="styles/style.css">
+<link rel="stylesheet" href="styles/product.css">
+
+<style>
+  #single-product span {
+    color: #010101;
+  }
+</style>
+
+    
+</head>
+<body>
+
+    <!-- NAVIGATION -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light py-3">
+        <div class="container">
+          <a href="index.html"><h1> <span>C</span>POINT</h1></a>
+
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span><i id="bar" class="fa-solid fa-bars"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            
+            <ul class="navbar-nav ml-auto">
+             
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="shopMen.html">Shop Men</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="shopWomen.html">Shop Women</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#footer-co">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <div class="cart">
+                  <a href="shoppingCart.html"> <i class="fa-solid fa-cart-shopping"></i></a></i>
+                  <div class="cart-amount">0</div>
+                
+                  </div>
+                  <div class="user-icon">
+                    <a href="#"><i class="fa-solid fa-user"></i></a>
+                    <div class="user-options">
+                      <a href="shoppingCart.html">View Orders</a>
+                      <a href="viewProfile.html">View Profile</a>
+                      <a href="wishlist.html">My Wishlist</a>
+                      <a href="editProfile.html">Edit Profile</a>
+                      <a href="#">Logout</a>
+                    </div>
+                  </div> 
+                
+
+                
+              </li>
+              
+              
+
+             
+          </div>
+        </div>
+
+       
+      </nav>
+
+    
+
+
+
+
+
+      <section id="single-product" class="container  sproduct my-5 pt-5">
+        <div class="row">
+          <div class="col-lg-5 col-md-12 col-12 my-5 pt-5">
+            <img class="img-fluid w-100 pb-1" src="images/brenda.jpeg" id="main-img" alt="shoe product image">
+            <div class="small-img-group">
+                <div class="small-img-col">
+                    <img src="images/brenda.jpeg" width="100%" class="Small-img" alt="shoe product image">
+                </div>
+                <div class="small-img-col">
+                  <img src="" width="100%" class="Small-img" alt="">
+              </div>
+              <div class="small-img-col">
+                <img src="" width="100%" class="Small-img" alt="">
+            </div>
+            <div class="small-img-col">
+              <img src="" width="100%" class="Small-img" alt="">
+          </div>
+             
+            </div>
+        </div>
+            <div class="col-lg-6 col-md-12 col-12">
+                <h6 class="my-5 pt-5">Leather Shoes</h6>
+                <h3 class="py-4">CPoint Women's Top Sider L. Brenda</h3>
+                <h2>&#8369;1,299</h2>
+                <select class="my-3">
+                    <option>Select US Size</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                    <option>11</option>
+                </select>
+                <input type="number" value="1">
+                <button class="buy-btn">Add To Cart</button>
+                <h4 class="product-details mt-5 mb-5">Product Details</h4>
+                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium nihil eaque deserunt. Illo explicabo quos tempore dolorem, id quis exercitationem ab eaque aliquam sequi eos, officia qui dolorum consequuntur laborum.</span>
+            </div>
+        </div>
+
+      </section>
+
+
+
+      <div onclick="window.location.href='sproduct.html';" class="container text-center mt-5 py-5">
+        <h3>Customer Reviews</h3>
+        <hr class="mx-auto"/>
+        <p class="mt-0"></p>
+      </div>
+
+      
+      
+      <div class="container reveal">
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Fusce id libero id felis finibus finibus.</p>
+              </div>
+              <div class="card-footer">
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="star">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                  </div>
+                  <small class="text-muted">Posted by User123 on 01/01/2023</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Fusce id libero id felis finibus finibus.</p>
+              </div>
+              <div class="card-footer">
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="star">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                  </div>
+                  <small class="text-muted">Posted by User456 on 01/02/2023</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Fusce id libero id felis finibus finibus.</p>
+              </div>
+              <div class="card-footer">
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="star">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                  </div>
+                  <small class="text-muted">Posted by User789 on 01/03/2023</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Fusce id libero id felis finibus finibus.</p>
+              </div>
+              <div class="card-footer">
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="star">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                  </div>
+                  <small class="text-muted">Posted by User789 on 01/03/2023</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Fusce id libero id felis finibus finibus.</p>
+              </div>
+              <div class="card-footer">
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="star">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                  </div>
+                  <small class="text-muted">Posted by User789 on 01/03/2023</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- RELATED PRODUCT-->
+
+      <section id="featured" class="my-5 pb-5">
+        <div class="container reveal text-center mt-5 py-5">
+          <h3>Related Items</h3>
+          <hr class="mx-auto"/>
+          <p class="mt-0">Discover the latest and greatest additions to our collection at Cpoint Shoe Store, all at reasonable prices.</p>
+        </div>
+        <div class="row mx-auto container-fluid">
+          <div  onclick="window.location.href='bambi.html';" class="product reveal text-center col-lg-3 col-md-4 col-12">
+            <img class="img-fluid mb-0" src="images/bambi.jpeg" alt="shoe product image">
+           
+            <h5 class="p-name">CPoint Women's Top Sider L. Bambi</h5>
+            <h4 class="p-price">&#8369;1,299 </h4>
+            <button class="buy-btn mb-4 mt-0">Buy Now</button>
+          </div>
+          <div onclick="window.location.href='ariella.html';" class="product reveal text-center col-lg-3 col-md-4 col-12">
+            <img class="img-fluid mb-0" src="images/ariella.jpeg" alt="shoe product image">
+            
+            <h5 class="p-name">CPoint Women's Top Sider L. Ariella</h5>
+            <h4 class="p-price">&#8369;1,299</h4>
+            <button class="buy-btn mb-4 mt-0">Buy Now</button>
+          </div>
+          <div onclick="window.location.href='sproduct.html';" class="product reveal text-center col-lg-3 col-md-4 col-12">
+            <img class="img-fluid mb-0" src="images/alliyah.jpeg" alt="shoe product image">
+            
+            <h5 class="p-name">C Point Women's Top Sider L. Alliyah</h5>
+            <h4 class="p-price">&#8369;1,299</h4>
+            <button class="buy-btn mb-4 mt-0">Buy Now</button>
+          </div>
+          <div onclick="window.location.href='mycel.html';" class="product reveal text-center col-lg-3 col-md-4 col-12">
+            <img class="img-fluid mb-0" src="images/mycel.jpeg" alt="shoe product image">
+           
+            <h5 class="p-name">CPoint Women's Top Sider L. Mycel</h5>
+            <h4 class="p-price">&#8369;1,299</h4>
+            <button class="buy-btn mb-4 mt-0">Buy Now</button>
+          </div>
+         
+        
+
+        </div>
+      </section>
+
+
+
+      <!-- FOOTER -->
+      <footer class="mt-5 py-5">
+        <div class="row container mx-auto pt-5">
+          <div class="footer-one col-lg-3 col-md-6- col-12">
+            <img id="footer-logo" src="images/cpoint logo.png" alt="">
+            <p class="pt-3">
+              Our extensive collection of shoes offers comfort, quality, and style, all at affordable prices. Follow us on social media for exclusive deals and updates on new arrivals.
+            </p>
+
+          </div>
+          <div class="footer-one col-lg-3 col-md-6- col-12 mb-3">
+              <h5 class="pb-2">Featured</h5>
+              <ul class="text-uppercase list-unstyled">
+                <li><a href="shopMen.html">Men</a></li>
+                <li><a href="shopWomen.html">Women</a></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li id="help">Help</li>
+                <li><a href="sizingInfo.html">Size Info</a></li>
+                <li><a href="FAQ.html">FAQ</a></li>
+                <li><a href="FAQ.html">Returns & Exchanges</a></li>
+
+
+              </ul>
+          </div>
+          <div class="footer-one col-lg-3 col-md-6- col-12 mb-3">
+            <h5 class="pb-2">Contact Us</h5>
+            <div>
+              <h6 class="text-uppercase">Address</h6>
+              <p>Marikina City</p>
+            </div>
+            <div>
+              <h6 class="text-uppercase">Phone</h6>
+              <p>(123) 456-7890</p>
+            </div>
+            <div>
+              <h6 class="text-uppercase">Email</h6>
+              <p ><a id="tt" href="mailto:cpointshoes@yahoo.com">cpointshoes@yahoo.com</a></p>
+            </div>
+        </div> 
+        <div class="footer-one col-lg-3 col-md-6- col-12">
+          <h5 class="pb-2"><a href="https://www.facebook.com/profile.php?id=100063831294362">Cpoint Villa</a></h5>
+          <div class="row">
+            <img class="img-fluid w-25 h-100 m-2" src="images/villa.jpg" alt="">
+            <img class="img-fluid w-25 h-100 m-2" src="images/villa1.jpg" alt="">
+            <img class="img-fluid w-25 h-100 m-2" src="images/villa3.jpg" alt="">
+            <img class="img-fluid w-25 h-100 m-2" src="images/villa5.jpg" alt="">
+            <img class="img-fluid w-25 h-100 m-2" src="images/villa6.jpg" alt="">
+            <img class="img-fluid w-25 h-100 m-2" src="images/villa7.jpg" alt="">
+
+
+          </div>
+      </div>
+        
+        </div>
+
+        <div  id="footer-co" class="copyright mt-5">
+          <div class="row container mx-auto">
+
+            <div class="col-lg-3 col-md-6 col-12 text-nowrap mb-4">
+              <img class="img-fluid w-25 h-80 m-2" src="images/Mastercard-Logo-PNG-Image-Background.png" alt="">
+              <img class="img-fluid w-25 h-80 m-2" src="images/GCash-Logo-Transparent-PNG-1.png" alt="">
+              <img class="img-fluid w-25 h-80 m-2" src="images/PayMaya_Logo-2048x733.png" alt="">
+            </div>
+            <div id="footer-p" class="container-fluid mx-auto col-lg-5 col-md-6 col-12 mb-4 text-center">
+              <p>Cpoint Shoe Store &copy; 2023. | PUP CCIS Web Design Contest</p>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+              <a href="https://www.facebook.com/Cpoint-Marikina-211919482189517/"><i class="fa-brands fa-facebook"></i></a>
+              <a href="https://www.instagram.com/cpointbymarikina/"><i class="fa-brands fa-instagram"></i></a>
+              
+            </div>
+          </div>
+        
+        </div>
+
+      </footer>
+
+
+      <script>
+        window.addEventListener('scroll', reveal);
+
+        function reveal() {
+          let reveals = document.querySelectorAll('.reveal');
+
+          for(let i = 0; i < reveals.length; i++) {
+            let windowheight = window.innerHeight;
+            let revealtop = reveals[i].getBoundingClientRect().top;
+            let revealpoint = 150;
+
+            if(revealtop < windowheight - revealpoint) {
+              reveals[i].classList.add('active');
+            }
+           
+          }
+
+
+        }
+        
+      </script>
+
+      <script>
+        var mainImg = document.getElementById('main-img');
+        var smallImg = document.querySelectorAll('.Small-img');
+
+        smallImg[0].onclick = function(event) {
+            mainImg.src = event.target.src;
+        }
+        smallImg[1].onclick = function(event) {
+            mainImg.src = event.target.src;
+        }
+        smallImg[2].onclick = function(event) {
+            mainImg.src = event.target.src;
+        }
+        smallImg[3].onclick = function(event) {
+            mainImg.src = event.target.src;
+        }
+      </script>
+
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
